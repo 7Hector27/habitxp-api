@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from app.db.session import engine, Base
+from app.models import *
 
 app = FastAPI(title="HabitXP API")
 
